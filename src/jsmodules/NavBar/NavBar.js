@@ -6,11 +6,11 @@ function NavBar() {
         <nav>
             <ul>
                 <li>
-                    <a class="li1" href="#"><strong class="fatori">Fatori</strong> <strong class="it">IT</strong> <strong class="solutions">Solutions</strong></a>
+                    <a className="li1" href="#"><strong className="fatori">Fatori</strong> <strong className="it">IT</strong> <strong className="solutions">Solutions</strong></a>
                 </li>
-                <li><a class="li2" href="#">Home</a></li>
-                <li><a class="li3" href="#">Servicios</a></li>
-                <li><a class="li4" href="#">Sobre Nosotros</a></li>
+                <li><a className="li2" href="#">Home</a></li>
+                <li><a className="li3" href="#">Servicios</a></li>
+                <li><a className="li4" href="#">Sobre Nosotros</a></li>
             </ul>
         </nav>
     )
