@@ -1,0 +1,61 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+
+nav {
+    background: rgb(22, 22, 22);
+    border-bottom: gray outset 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr 3fr;
+}
+
+nav ul li {
+    margin: 1% 0 0 1%;
+    font-size: 3.1vh;
+    padding: 3%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+nav ul li a:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+
+.li1 .fatori {
+    color: yellow;
+}
+.li1 .it {
+    color: magenta;
+}
+.li1 .solutions {
+    color: cyan;
+}
+
+.li2 {
+    color: yellow;
+    padding: 3%;
+}
+.li3 {
+    color: magenta;
+    padding: 3%;
+}
+.li4 {
+    color: cyan;
+    padding: 1%;
+}
