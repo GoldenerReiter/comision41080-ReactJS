@@ -15,6 +15,7 @@ nav {
 }
 
 nav ul {
+    padding: 1%;
     list-style-type: none;
     display: grid;
     grid-template-columns: 3fr 2fr 2fr 2fr 3fr;
@@ -23,7 +24,6 @@ nav ul {
 nav ul li {
     margin: 1% 0 0 1%;
     font-size: 3.1vh;
-    padding: 3%;
 }
 
 nav ul li a {
@@ -58,4 +58,9 @@ nav ul li a:hover {
 .li4 {
     color: cyan;
     padding: 1%;
+}
+.li5 {
+    color: white;
+    padding: 1%;
+    text-align: center;
 }
