@@ -17,7 +17,7 @@ function Counter(prop) {
 
     const onAdd = () => {
         if (counter <= prop.stock) {
-            console.log(`Usted lleva ${counter} items!`);
+            alert(`Usted lleva ${counter} items!`);
         }
     }
     
