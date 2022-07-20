@@ -1,8 +1,8 @@
 import colourRandomizer from "../ColourRandomizer/colourRandomizer";
 
-function ShopCart(quantity) {
+function ShopCart(prop) {
     return (
-        <li><a className="li5" href="#">Carrito <span styles={colourRandomizer()}>({quantity.quantity})</span></a></li>
+        <li><a className="li5" href="#">Carrito <span styles={colourRandomizer()}>({prop.quantity})</span></a></li>
     )
 }
 

@@ -1,0 +1,15 @@
+.Counter {
+    color: magenta;
+    display: grid;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 0.2%;
+}
+
+.Counter button {
+    background-color: black;
+    color: magenta;
+    border: solid 3px;
+    border-radius: 5px;
+    margin-top: 6%;
+}
