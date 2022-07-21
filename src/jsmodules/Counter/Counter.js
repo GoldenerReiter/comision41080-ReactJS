@@ -6,7 +6,7 @@ function Counter(prop) {
 
     const increment = () => {
         if (counter < prop.stock) {
-            setCounter(counter+1)
+            setCounter(counter + 1);
         }
     }
     const decrement = () => {
